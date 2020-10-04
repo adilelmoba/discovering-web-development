@@ -1,0 +1,209 @@
+/*----- GLOBAL -------*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background-image: transparent;
+}
+
+html {
+    font-family: Libre Baskerville,sans-serif;
+    font-weight: 100;
+}
+
+header {
+
+    background-image: url(images/xCopy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+
+    
+} 
+nav a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: right;
+    line-height: 100px;
+    display: inline;
+    float: right;
+    margin: 0 94px 0 -5px;
+}
+
+.container h1
+{
+    color: white;
+    font-size: 80px;
+    width: 88%;
+    margin: auto;
+}
+.container {
+    padding-top: 100px;
+    color: white;
+    width: 88%;
+    margin: 150px auto 50px auto;
+    display: inline-block;
+}
+.container p {
+    margin-left: 75px;
+}
+.secondText {
+    font-size: 18px;
+    opacity: 0.2px;
+    
+}
+.firstText {
+    margin-bottom: -10px;
+}
+
+
+/*---- Second Page ----*/
+
+
+.secondPage {
+    background-image: url(images/secondPage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.secondPage a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: left;
+    line-height: 80px;
+    display: inline;
+    float: left;
+    /* margin-left: 105px; */
+    margin: 0 0 50px 105px;
+    z-index: 0;
+    
+    
+}
+.secondPage .textOne p {
+    z-index: 1;
+    width: 50%;
+    color: black;
+    font-size: 30px;
+    margin-left: 80px;
+    text-shadow: 1px 1px 4px #000000;
+}
+.adobe {
+    color: red;
+    font-style: italic;
+    text-shadow: 1px 1px 4px ;
+}
+.adobe_images {
+    margin-left: 80px;
+    margin-top: 25px;
+    
+}
+.textTwo {
+    margin-top: 200px;
+    float: right;
+}
+.secondPage .textTwo p {
+    z-index: 1;
+    width: 70%;
+    color: black;
+    font-size: 30px;
+    margin-left: 80px;
+    text-shadow: 1px 1px 4px #000000;
+}
+.Microsoft {
+    color: darkcyan;
+    font-style: italic;
+    text-shadow: 1px 1px 4px ;
+}
+.microsoft_images {
+    margin: auto;
+
+}
+.icon {
+    width: 60%;
+    height: 20px;
+    margin-top: 60px;
+    opacity: 0.2;
+}
+
+/*---- thirdPage Page ----*/
+
+
+.thirdPage {
+    background-image: url(images/thirdPage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.thirdPage a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: right;
+    line-height: 80px;
+    display: inline;
+    float: right;
+    /* margin-left: 105px; */
+    margin: 0 147px 0 0;
+    z-index: 0;
+}
+.myPhoto {
+    z-index: 1;
+    margin: 150px 0 150px 80px;
+}
+.myLife {
+    margin:-338px 0 200px 210px;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+.barra {
+    height: 50px;
+    margin: 0 0 0 500px;
+}
+.ktab {
+    height: 50px;
+    margin: 0 0 0 50px;
+}
+.dev {
+    height: 50px;
+    margin: 0 0 0 50px;
+}
+.lastText {
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+    width: 50%;
+    margin: 50px 0 0 350px
+}
+.final{
+    border-width: 10px;
+    border: 3px solid #000000;
+    }
+
+/*--- Footer ---*/
+
+.footer1 {
+    margin-top: 200px;
+    margin-left: 45px;
+    float: left;
+    font-style: italic;
+    color: darkslategray;
+ 
+}
+.footer2 {
+    margin-top: 200px;
+    margin-right: 45px;
+    float: right;
+    font-style: italic;
+    color: darkslategray;
+    
+}
+
