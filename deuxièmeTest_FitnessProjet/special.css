@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    scroll-behavior: smooth;
+}
+html {
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+
+header {
+    background-image: url(images/bg1000.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    position: relative;
+}
+header a .logo {
+    float: left;
+    display: block;
+}
+header nav ul li a {
+    padding-top: 8px;
+    float: right;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-left: 30px;
+
+}
+header nav ul li a:hover {
+    background-color: white;
+    border-radius: 3px;
+    padding: 8px;
+    margin-right: -8px;
+    margin-left: 22px;
+    color: #0F1B37;
+}
+header nav ul li {
+    display: inline;
+}
+header .textHeader {
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    text-align: left;
+}
+header .textHeader h1 {
+    width: 700px;
+    text-transform: uppercase;
+    font-size: 110px;
+}
+header .textHeader p {
+    font-size: 18px;
+    margin: -10px 0 0 10px;
+}
+
+/* ----SECOND PAGE---- */
+.secondPage {
+    position: absolute;
+}
+.blueBox {
+    background-color: #0F1B37;
+    width: 960px;
+    padding: 35px;
+    left: 110px;
+    position: absolute;
+    bottom: -25px;
+}
+.blueBox h1 {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    margin-left: 350px;
+    width: 250px;
+    text-transform: uppercase;
+    /* border: 2px solid white; */
+    border-radius: 3px;
+}
+.secondPage .box {
+    position: absolute;
+    outline: 1.5px solid white;
+    width: 400px;
+    height: 45px;
+    left: 308px;
+    bottom: 22px;
+}
+
+.secondPageTwo {
+    padding: 30px 90px;
+    width: 85%;
+}
+.secondPageTwo img {
+    width: 400px;
+    height: 620px;
+    margin-bottom: 100px;
+
+}
+.secondPageTwo .text {
+    float: right;
+    width: 50%;
+    margin-top: 200px;
+    color: #00305A;
+}
+.secondPageTwo .text h1 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.secondPageTwo .text p {
+    font-size: 18px;
+    font-family: 'Circular Std Book';
+    margin-bottom: 60px;
+}
+.secondPageTwo .text span {
+    font-weight: 800;
+    font-size:  24px;
+    outline: 2px solid #00305A;
+    padding: 20px 30px;
+}
+.secondPageTwo .text a{
+    text-decoration: none;
+    color: #00305A;
+}
+
